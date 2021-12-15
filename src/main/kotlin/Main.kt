@@ -20,15 +20,14 @@ class Hello
         println("In Ramoji")
     }
 
-
     fun merged()
     {
         println("Performed Merge operation")
     }
 
-    fun finished()
+    fun trial()
     {
-        println("All the operations are done")
+        println("To check")
     }
 
 }
@@ -40,5 +39,5 @@ fun main()
     Hello().byMasterAgain()
     Hello().merged()
     Hello().byRamoji()
-    Hello().finished()
+    Hello().trial()
 }
