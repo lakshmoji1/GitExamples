@@ -25,6 +25,11 @@ class Hello
         println("Performed Merge operation")
     }
 
+    fun finished()
+    {
+        println("Performed all the required operations")
+    }
+
     fun trial()
     {
         println("To check")
@@ -40,4 +45,5 @@ fun main()
     Hello().merged()
     Hello().byRamoji()
     Hello().trial()
+    Hello().finished()
 }
