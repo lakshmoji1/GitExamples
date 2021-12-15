@@ -9,10 +9,17 @@ class Hello
     {
         println("In master again")
     }
+
+    fun byRamoji()
+    {
+        println("In Ramoji")
+    }
+
 }
 
 fun main()
 {
     Hello().byMaster()
     Hello().byMasterAgain()
+    Hello().byRamoji()
 }
