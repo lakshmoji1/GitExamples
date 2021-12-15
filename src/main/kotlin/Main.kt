@@ -14,6 +14,11 @@ class Hello
     {
         println("In master again")
     }
+
+    fun merged()
+    {
+        println("Performed Merge operation")
+    }
 }
 
 fun main()
@@ -21,4 +26,5 @@ fun main()
     Hello().byMaster()
     Hello().byLakshmoji()
     Hello().byMasterAgain()
+    Hello().merged()
 }
