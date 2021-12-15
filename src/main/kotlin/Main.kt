@@ -15,6 +15,11 @@ class Hello
         println("In Ramoji")
     }
 
+    fun trial()
+    {
+        println("To check")
+    }
+
 }
 
 fun main()
@@ -22,4 +27,5 @@ fun main()
     Hello().byMaster()
     Hello().byMasterAgain()
     Hello().byRamoji()
+    Hello().trial()
 }
